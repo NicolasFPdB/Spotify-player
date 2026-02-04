@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toca Musica</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Toca Musica</h1>
+    <main>
+        <img id='img' alt="Capa música" ></img>
+        <audio id="audio" ></audio>
+        <span id="info-musica">
+            <div id='musica'>
+                <h3 id='nome-musica'>Nome da música</h3>
+                <h4 id='artista'>nome do artista</h4>
+            </div>
+            <button id="like" class="control "><i class="bi bi-heart"></i></button>    
+        </span>
+        <div id='container-progress'>
+            <div id='barra-progresso'>
+                <div id="current-progress"></div>
+            </div>
+            <span id="time-box">
+                <div id="current-time">00:00</div>
+                <div id="total-time">00:00</div>
+            </span>
+        </div>
+        <div id="controls">
+            <button id="shuffle" class="control "><i class="bi bi-shuffle"></i></button>
+            <button id="previous"  class="control "><i class="bi bi-skip-backward"></i></button>
+            <button id="play" class="control "><i class="bi bi-play-circle-fill"></i></button>
+            <button id="pause" class="control "><i class="bi bi-pause-circle-fill"></i></button>
+            <button id="skip"  class="control "><i class="bi bi-skip-forward"></i></button>
+            <button id="repeat" class="control "><i class="bi bi-arrow-repeat"></i></button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
