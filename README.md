@@ -8,7 +8,6 @@
   <li>My Hero - Foo Fighters</li>
   <li>Deixa Alagar - Grupo Revelação</li>
 </ol>
-<br>
 
 ### ℹ️ Funcionalidades oferecidas:
 <ul>
@@ -19,7 +18,6 @@
   <li>Coração - Favoritar música</li>
   <li>Momento da música - Clique na barra que sinaliza o tempo da música e selecione o momento desejado</li>
 </ul>
-<br>
 
 ## ⌨️ Linguagens de programação usadas
 
